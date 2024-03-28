@@ -1,0 +1,34 @@
+{
+  "private": false,
+  "name": "@enzomoy/rest-api",
+  "description": "Une API pour gérer de manière simple vos réservations !",
+  "version": "0.1.0",
+  "homepage": "https://github.com/enzomoy/rest-api",
+  "license": "MIT",
+  "main": "/src/index.js",
+  "packageManager": "npm@10.2.4",
+  "bugs": {
+    "url": "https://github.com/enzomoy/rest-api/issues"
+  },
+  "author": {
+    "name": "Enzo MOY - Manon ROULEAU - Kévin SURESHE",
+    "url": "https://github.com/enzomoy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enzomoy/rest-api.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+        "crypto": "^1.0.1",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "mysql2": "^3.6.5",
+        "nodemon": "^3.0.2",
+        "sequelize": "^6.35.2"
+  }
+}
