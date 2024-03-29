@@ -33,9 +33,9 @@ Une API pour gérer de manière simple vos réservations !
 
 ## Auteurs
 
-Enzo MOY doe alias @enzomoy\
-Kevin SURESHE alias @sitron808\
-Manon ROULEAU alias @manomano04
+Enzo MOY doe alias [@enzomoy](https://github.com/enzomoy)\
+Kevin SURESHE alias [@sitron808](https://github.com/sitron808)\
+Manon ROULEAU alias [@manomano04](https://github.com/manomano04)
 
 
 ## Contributing
