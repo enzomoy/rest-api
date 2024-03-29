@@ -38,14 +38,15 @@ Kevin SURESHE alias [@sitron808](https://github.com/sitron808)\
 Manon ROULEAU alias [@manomano04](https://github.com/manomano04)
 
 
+
 ## Contributing
 
-for contributing see [CONTRIBUTING.md]()
+for contributing see [CONTRIBUTING.md](CONTRIBUTING)
 
 
 
 ## License
 
-Distributed under the MIT License. See [LICENSE.txt]() for more information.
+Distributed under the MIT License. See [LICENSE.txt](LICENSE) for more information.
 
 
