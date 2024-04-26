@@ -30,6 +30,12 @@ Une API pour gérer de manière simple vos réservations !
   npm start
   ```
 
+## Démarrage Docker
+
+  ```sh
+  docker compose up
+  ```
+
 ## Auteurs
 
 Enzo MOY alias [@enzomoy](https://github.com/enzomoy)\
