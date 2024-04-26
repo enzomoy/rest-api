@@ -10,10 +10,6 @@ services:
     volumes:
       - ./data:/var/lib/mysql
       - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
-    healthcheck:
-      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost", "-uroot", "-pRespons11"]
-      timeout: 5s
-      retries: 10
 
   api:
     build:
@@ -29,5 +25,4 @@ services:
       DB_NAME: 'rest_api'
       JWT_SECRET: 'secret'
     depends_on:
-      db:
-        condition: service_healthy
+      - db
